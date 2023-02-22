@@ -1,0 +1,61 @@
+.img{
+    height:40px;
+    width:100px
+}
+
+#navbar{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: 
+#0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.card img{
+    width:"1250";
+    height:"700";
+}
+.card img:hover{
+    transform:scale(1.5);
+    transition: 1s;
+}
+.inner{
+  overflow: hidden;
+}
+
+.logo{
+  height:40px;
+    width:100px;
+}
+
+#img{
+  height:40px;
+    width:100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}

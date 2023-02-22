@@ -1,0 +1,24 @@
+.button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#container{
+    background-color:lightsalmon ;
+  }
+
+#wel
+{
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.inner{
+    overflow: hidden;
+}
+#but:hover{
+    background-color: chocolate;
+}
